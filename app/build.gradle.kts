@@ -35,10 +35,9 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
-    implementation(libs.constraintlayout)
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
     testImplementation(libs.junit)
