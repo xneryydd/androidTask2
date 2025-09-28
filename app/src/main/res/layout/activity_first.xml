@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Open -->
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- Save -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- Save US -->
+        <Button
+            android:id="@+id/btn_save_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save US"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- Import -->
+        <Button
+            android:id="@+id/btn_import"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Import"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- Export -->
+        <Button
+            android:id="@+id/btn_export"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- Quit -->
+        <Button
+            android:id="@+id/btn_quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp"/>
+
+        <!-- 返回 MainActivity -->
+        <Button
+            android:id="@+id/btn_back_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Main"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <!-- 跳转 SecondActivity -->
+        <Button
+            android:id="@+id/btn_to_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Second"
+            android:textColor="#FFFFFF"
+            android:background="#1E1E1E"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+</ScrollView>
